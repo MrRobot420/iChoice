@@ -9,11 +9,14 @@
 import Foundation
 
 class Random{
+    //Ckeckt die Button
     func checkDayTime(dayTime : String)-> String{
         switch dayTime{
         case morgens:
         case mittags:
         case abends:
+        default :
+            
         }
     }
 }
