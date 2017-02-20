@@ -9,14 +9,30 @@
 import Foundation
 
 class Random{
-    //Ckeckt die Button
-    func checkDayTime(dayTime : String)-> String{
-        switch dayTime{
-        case morgens:
-        case mittags:
-        case abends:
-        default :
-            
-        }
+    
+    let morning : [String] = [
+        "Joggen"
+    ]
+    let midday : [String] = [
+    
+    ]
+    let afternoon : [String] = [
+    
+    ]
+    let evening : [String] = [
+    
+    ]
+    
+    func rand (sum : [String]) -> String{
+        var i = sum.count
+        let result = arc4random(i)
+        
+    }
+    //Kombiniert alle ausgewählten buttons
+    func combine (){
+        var result : String = ""
+        for i in 
+        
+        sum [result]
     }
 }
