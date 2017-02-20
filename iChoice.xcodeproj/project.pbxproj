@@ -12,6 +12,7 @@
 		5460E3D51E5BA3D600BA8CC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5460E3D31E5BA3D600BA8CC9 /* Main.storyboard */; };
 		5460E3D71E5BA3D600BA8CC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5460E3D61E5BA3D600BA8CC9 /* Assets.xcassets */; };
 		5460E3DA1E5BA3D600BA8CC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5460E3D81E5BA3D600BA8CC9 /* LaunchScreen.storyboard */; };
+		5460E3E21E5BB51800BA8CC9 /* MorningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5460E3E11E5BB51800BA8CC9 /* MorningViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		5460E3D61E5BA3D600BA8CC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5460E3D91E5BA3D600BA8CC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5460E3DB1E5BA3D600BA8CC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5460E3E11E5BB51800BA8CC9 /* MorningViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MorningViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				5460E3CF1E5BA3D600BA8CC9 /* AppDelegate.swift */,
 				5460E3D11E5BA3D600BA8CC9 /* ViewController.swift */,
 				5460E3D31E5BA3D600BA8CC9 /* Main.storyboard */,
+				5460E3E11E5BB51800BA8CC9 /* MorningViewController.swift */,
 				5460E3D61E5BA3D600BA8CC9 /* Assets.xcassets */,
 				5460E3D81E5BA3D600BA8CC9 /* LaunchScreen.storyboard */,
 				5460E3DB1E5BA3D600BA8CC9 /* Info.plist */,
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5460E3D21E5BA3D600BA8CC9 /* ViewController.swift in Sources */,
+				5460E3E21E5BB51800BA8CC9 /* MorningViewController.swift in Sources */,
 				5460E3D01E5BA3D600BA8CC9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
