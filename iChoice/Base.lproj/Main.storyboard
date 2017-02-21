@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_0" orientation="portrait">
+>>>>>>> iChoice/iChoice_Alpha
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -18,13 +19,19 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gWn-BT-V3I">
                                 <rect key="frame" x="86" y="133" width="149" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.39092724928597455" green="0.84737289507772018" blue="0.39397303709211101" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+<<<<<<< HEAD
+                                <state key="normal" title="Morning"/>
+                                <connections>
+                                    <segue destination="KTq-h5-RQ0" kind="show" id="gj2-iu-Dgs"/>
+                                </connections>
+=======
                                 <state key="normal" title="Morgens"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -36,6 +43,9 @@
                                 <rect key="frame" x="86" y="171" width="149" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.3909272493" green="0.84737289510000002" blue="0.39397303709999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+<<<<<<< HEAD
+                                <state key="normal" title="Noon"/>
+=======
                                 <state key="normal" title="Mittags"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="keyPath">
@@ -54,6 +64,15 @@
                                 <rect key="frame" x="86" y="209" width="149" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.3909272493" green="0.84737289510000002" blue="0.39397303709999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+<<<<<<< HEAD
+                                <state key="normal" title="Afternoon"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D2h-QD-JWC">
+                                <rect key="frame" x="16" y="518" width="131" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.3909272493" green="0.84737289510000002" blue="0.39397303709999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="DID"/>
+=======
                                 <state key="normal" title="Abends"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="keyPath">
@@ -72,10 +91,13 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D2h-QD-JWC">
-                                <rect key="frame" x="16" y="518" width="131" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tol-p6-k3X">
+                                <rect key="frame" x="86" y="247" width="149" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.3909272493" green="0.84737289510000002" blue="0.39397303709999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+<<<<<<< HEAD
+                                <state key="normal" title="Evening"/>
+=======
                                 <state key="normal" title="DID"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="keyPath">
@@ -91,32 +113,88 @@
             </objects>
             <point key="canvasLocation" x="178" y="184"/>
         </scene>
-        <!--View Controller-->
+        <!--Morning View Controller-->
         <scene sceneID="DDB-KV-rVK">
             <objects>
-                <viewController id="KTq-h5-RQ0" sceneMemberID="viewController">
+                <viewController id="KTq-h5-RQ0" customClass="MorningViewController" customModule="iChoice" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="HvE-hh-NDI"/>
                         <viewControllerLayoutGuide type="bottom" id="f1h-rh-7BV"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="uWX-1G-KTN">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eO7-zs-zfn">
+                                <rect key="frame" x="14" y="81" width="67" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.82429970854922274" green="0.08191085259283673" blue="0.052724670386964712" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="420"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EcP-UV-vvN">
+                                <rect key="frame" x="89" y="81" width="67" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.82429970850000001" green="0.08191085259" blue="0.052724670389999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Fooden"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5RO-aQ-8J3">
+                                <rect key="frame" x="164" y="81" width="67" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.82429970850000001" green="0.08191085259" blue="0.052724670389999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Schlafen"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Choose:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QtG-LT-0iQ">
+                                <rect key="frame" x="108" y="28" width="104" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <color key="textColor" red="0.041371215088257217" green="0.10689947092480266" blue="0.82429970854922274" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8uP-Te-G1s">
+                                <rect key="frame" x="239" y="81" width="67" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.82429970850000001" green="0.08191085259" blue="0.052724670389999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Zocken"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xDS-ra-tSd">
+                                <rect key="frame" x="127" y="518" width="67" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.078695849315137872" green="0.10661407363637013" blue="0.82429970854922274" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Shuffle">
+                                    <color key="titleColor" red="0.92322108368144906" green="0.96454015544041449" blue="0.13652235681341374" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hje-NX-qfH">
+                                <rect key="frame" x="14" y="328" width="292" height="182"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Result:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xcJ-EN-YOD">
+                                <rect key="frame" x="1" y="287" width="320" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.96379259634005698" green="0.96454015544041449" blue="0.95060384812390697" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" red="0.13118448853492737" green="0.23725372552871704" blue="0.82384783029556274" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" red="0.95563471502590669" green="0.86848641846089725" blue="0.22946310926481053" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <gestureRecognizers/>
                         <connections>
-                            <outletCollection property="gestureRecognizers" destination="1rD-nV-mys" appends="YES" id="ss0-3v-lo5"/>
+                            <outletCollection property="gestureRecognizers" destination="IvB-Bd-E5y" appends="YES" id="YJZ-EP-ND9"/>
                         </connections>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oKx-TQ-FxQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <swipeGestureRecognizer direction="right" id="1rD-nV-mys">
+                <swipeGestureRecognizer direction="right" id="IvB-Bd-E5y">
                     <connections>
-                        <segue destination="BYZ-38-t0r" kind="show" id="PH0-hi-Mf8"/>
+                        <segue destination="BYZ-38-t0r" kind="show" id="Cac-V1-3xK"/>
                     </connections>
                 </swipeGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="893" y="184"/>
+            <point key="canvasLocation" x="892.5" y="183.80281690140845"/>
         </scene>
     </scenes>
 </document>
