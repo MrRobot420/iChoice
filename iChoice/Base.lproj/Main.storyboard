@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
+=======
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_0" orientation="portrait">
+>>>>>>> iChoice/iChoice_Alpha
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -25,16 +30,34 @@
                                 <rect key="frame" x="86" y="133" width="149" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.39092724928597455" green="0.84737289507772018" blue="0.39397303709211101" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+<<<<<<< HEAD
                                 <state key="normal" title="Morning"/>
                                 <connections>
                                     <segue destination="KTq-h5-RQ0" kind="show" id="gj2-iu-Dgs"/>
                                 </connections>
+=======
+                                <state key="normal" title="Morgens"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+>>>>>>> iChoice/iChoice_Alpha
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YpN-An-jI0">
                                 <rect key="frame" x="86" y="171" width="149" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.3909272493" green="0.84737289510000002" blue="0.39397303709999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+<<<<<<< HEAD
                                 <state key="normal" title="Noon"/>
+=======
+                                <state key="normal" title="Mittags"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="keyPath">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+>>>>>>> iChoice/iChoice_Alpha
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="iChoice? Your Choice!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jPf-jT-4fI">
                                 <rect key="frame" x="76" y="0.0" width="168" height="109"/>
@@ -47,6 +70,7 @@
                                 <rect key="frame" x="86" y="209" width="149" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.3909272493" green="0.84737289510000002" blue="0.39397303709999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+<<<<<<< HEAD
                                 <state key="normal" title="Afternoon"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D2h-QD-JWC">
@@ -54,18 +78,40 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.3909272493" green="0.84737289510000002" blue="0.39397303709999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="DID"/>
+=======
+                                <state key="normal" title="Abends"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="keyPath">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+>>>>>>> iChoice/iChoice_Alpha
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QoB-1r-hmH">
                                 <rect key="frame" x="173" y="518" width="131" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.3909272493" green="0.84737289510000002" blue="0.39397303709999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="TO DO"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="keyPath">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tol-p6-k3X">
                                 <rect key="frame" x="86" y="247" width="149" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.3909272493" green="0.84737289510000002" blue="0.39397303709999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+<<<<<<< HEAD
                                 <state key="normal" title="Evening"/>
+=======
+                                <state key="normal" title="DID"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="keyPath">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+>>>>>>> iChoice/iChoice_Alpha
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.6183910972817408" green="0.80541111144952238" blue="0.87042584196891193" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
